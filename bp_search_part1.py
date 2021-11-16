@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-##inp: ./name np_vs_np_notA_0_16.sam np_vs_np_notA_0_16_xyzw.txt 300 np_vs_np_notA_0_16_xyzw_LR.txt 2>123noG.log &
+##inp: ./name SAM ZW 300 LR 2>log &
 
 import sys
 import math
