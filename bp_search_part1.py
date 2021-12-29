@@ -129,8 +129,6 @@ if __name__ == '__main__':  #essential line
             
             with Pool(processes=ThreadCount) as executor:
                 Result = executor.map(ReadOtherLine, ArgumentList)
-            #Pool(processes=ThreadCount)
-            #Result = map(ReadOtherLine, ArgumentList)
             
             print("All Lines Calculated, it took=" + str(datetime.datetime.now() - time))
             
